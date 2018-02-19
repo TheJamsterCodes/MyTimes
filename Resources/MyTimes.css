@@ -1,0 +1,23 @@
+/* Header */
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+span {
+	color: mediumaquamarine;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+nav span {
+	color: black;
+	display: inline-block;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
