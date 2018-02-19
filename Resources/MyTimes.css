@@ -1,8 +1,8 @@
 /* Header */
-
 header {
 	display: flex;
 	align-items: center;
+	border: 1px solid black;
 }
 
 span {
@@ -15,9 +15,92 @@ span {
 nav span {
 	color: black;
 	display: inline-block;
+	padding: 20px 10px;
 }
 
 .logo {
 	display: flex;
 	align-items: center;
+}
+
+/* Main Content */
+.container {
+	border: 1px solid black;
+	width: 630px;
+	display: flex;
+}
+
+.column-large {
+	border: 1px solid black;
+	width: 300px;
+	display: flex;
+}
+
+.column-medium {
+	border: 1px solid black;
+	display: flex;
+}
+
+.column-small {
+	border: 1px solid black;
+	width: 240px;
+	display: flex;
+}
+
+.story-large {
+	border: 1px solid black;
+}
+
+.story-medium {
+	border: 1px solid black;
+}
+
+.story-small {
+	border: 1px solid black;
+}
+
+#img-story-main {
+	border: 1px solid black;
+	display: flex;
+}
+
+#img-story-backwardsearth {
+	border: 1px solid black;
+	display: flex;
+}
+
+#img-story-hipster {
+	border: 1px solid black;
+	display: flex;
+}
+
+.container p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#img-story-main h3,
+#img-story-backwardsearth h3,
+#img-story-hipster h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#img-story-main h3 {
+  font-size: 40px;	
+}
+
+#img-story-main {
+	background-image: url(Images/img-story-main.png);
+}
+
+#img-story-backwardsearth {
+	background-image: url(Images/img-story-backwardsearth.png);
+}
+
+#img-story-hipster {
+	background-image: url(Images/img-story-hipster.png);
 }
